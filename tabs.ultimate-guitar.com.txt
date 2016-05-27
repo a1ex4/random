@@ -1,0 +1,14 @@
+# Tried adding css, not working
+# replace_string("t_dt"): "t_dt" style ="float:left; padding-right:15px"
+
+title: //h1 | //div[contains(concat(' ',normalize-space(@class),' '),' t_autor ')]
+body: //pre[contains(concat(' ',normalize-space(@class),' '),' js-tab-content ')] | //div[@class="t_dt"] | //div[@class='t_dtd']
+
+# Tried to fetch the "print" version, not working, always redirected to the original
+#title: //pre/h2
+#body: //body
+#replace_string(/print): https://tabs.ultimate-guitar.com/print
+#single_page_link: //a[@id='print_link']/@href
+
+
+test_url: https://tabs.ultimate-guitar.com/m/macklemore/same_love_crd.htm
