@@ -11,4 +11,4 @@ body: //pre[contains(concat(' ',normalize-space(@class),' '),' js-tab-content ')
 #single_page_link: //a[@id='print_link']/@href
 
 
-test_url: https://tabs.ultimate-guitar.com/m/macklemore/same_love_crd.htm
+test_url: https://tabs.ultimate-guitar.com/e/ed_sheeran/photograph_tab.htm
